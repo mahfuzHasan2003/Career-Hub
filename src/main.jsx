@@ -10,6 +10,8 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import JobDetails from './components/JobDetails/JobDetails.jsx';
+import axios from 'axios';
 
 const router = createBrowserRouter([
   {
@@ -28,6 +30,11 @@ const router = createBrowserRouter([
       {
         path: '/blog',
         element: <Blog />
+      },
+      {
+        path: '/Job/:id',
+        element: <JobDetails />,
+        loader: () => axios.get('/jobs.json')
       }
     ]
   }
