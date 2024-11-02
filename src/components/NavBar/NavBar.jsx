@@ -17,27 +17,27 @@ const NavBar = () => {
                <NavLink
                   to='/'
                   className={({ isActive }) =>
-                     isActive ? "text-purple-700" : ""
+                     isActive ? "text-purple-700 font-bold" : ""
                   }>
                   Statistics
                </NavLink>
                <NavLink
                   to='/applied-jobs'
                   className={({ isActive }) =>
-                     isActive ? "text-purple-700" : ""
+                     isActive ? "text-purple-700 font-bold" : ""
                   }>
                   Applied Jobs
                </NavLink>
                <NavLink
                   to='/blog'
                   className={({ isActive }) =>
-                     isActive ? "text-purple-700" : ""
+                     isActive ? "text-purple-700 font-bold" : ""
                   }>
                   Blog
                </NavLink>
             </div>
             <Link to='/'>
-               <button className='bg-purple-700 py-2 px-4 rounded-md text-white font-medium'>
+               <button className='bg-purple-700 py-2 px-4 rounded-md text-white font-medium mt-3 md:mt-0'>
                   Start Applying
                </button>
             </Link>

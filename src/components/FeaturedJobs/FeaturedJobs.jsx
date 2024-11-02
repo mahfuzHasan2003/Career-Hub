@@ -9,7 +9,7 @@ const FeaturedJobs = () => {
    }, []);
 
    return (
-      <section className='w-11/12 max-w-7xl mx-auto my-10 space-y-4'>
+      <section className='w-11/12 max-w-7xl mx-auto my-20 space-y-4'>
          <h2 className='text-3xl font-bold text-center'>Featured Jobs</h2>
          <p className='text-center'>
             Explore thousands of job opportunities with all the information you
@@ -19,11 +19,6 @@ const FeaturedJobs = () => {
             {jobs.map((job) => (
                <FeaturedJob key={job.id} job={job} />
             ))}
-         </div>
-         <div className='text-center'>
-            <button className='bg-purple-700 py-2 px-4 rounded-md text-white font-medium mx-auto'>
-               Show All Jobs
-            </button>
          </div>
       </section>
    );

@@ -8,7 +8,7 @@ const JobCategories = () => {
       axios.get("categories.json").then((data) => setCategories(data.data));
    }, []);
    return (
-      <section className='w-11/12 max-w-7xl mx-auto my-10 space-y-4'>
+      <section className='w-11/12 max-w-7xl mx-auto my-20 space-y-4'>
          <h2 className='text-3xl font-bold text-center'>Job Category List</h2>
          <p className='text-center'>
             Explore thousands of job opportunities with all the information you

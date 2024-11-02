@@ -1,8 +1,24 @@
-# React + Vite
+# Career Hub | Let's join us.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Search job and make your carrer from today. You can browse featured jobs and apply to them. data storing features added for you using browser local storage.
 
-Currently, two official plugins are available:
+## Key features of the project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-  Browse Features Jobs
+-  Apply for Jobs and adding to Applied Jobs Section
+-  User friendly UI
+-  React One page Application
+
+## Technologies used
+
+-  React JS
+-  React Router
+-  React Toastify Library
+-  Browser Local Storage
+-  API fetching with Axios
+-  React Hooks (useState, useEffect, useLoaderData, useParams)
+-  JavaScript ES6 Features
+
+## Project Live View
+
+[career-hub-for-you.surge.sh](career-hub-for-you.surge.sh)

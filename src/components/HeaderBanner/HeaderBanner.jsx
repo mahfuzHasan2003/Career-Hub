@@ -6,7 +6,7 @@ const HeaderBanner = () => {
       <section className='bg-gradient-to-t from-purple-50 to-transparent'>
          <div className='flex md:*:flex-1 flex-col md:flex-row lg:gap-10 md:gap-0 w-11/12 max-w-7xl mx-auto items-center'>
             <div className='space-y-3'>
-               <h1 className='text-4xl lg:text-5xl font-black leading-snug'>
+               <h1 className='text-4xl lg:text-5xl font-black lg:leading-snug'>
                   One Step <br /> Closer To Your <br />
                   <span className='text-purple-700'>Dream Job</span>
                </h1>
