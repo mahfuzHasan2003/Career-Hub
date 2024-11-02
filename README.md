@@ -21,4 +21,4 @@ Search job and make your carrer from today. You can browse featured jobs and app
 
 ## Project Live View
 
-[career-hub-for-you.surge.sh](career-hub-for-you.surge.sh)
+[https://career-hub-for-you.surge.sh/](https://career-hub-for-you.surge.sh/)
